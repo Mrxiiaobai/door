@@ -1,0 +1,27 @@
+// {
+//   "editor.tabSize": 2,
+//   "editor.formatOnSave": true,
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll.eslint": true
+//   }, // 每次保存的时候将代码按eslint格式进行修复
+//   "prettier.eslintIntegration": true, //让prettier使用eslint的代码格式进行校验
+//   "prettier.semi": true, //去掉代码结尾的分号
+//   "prettier.singleQuote": true, //使用单引号替代双引号
+//   "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //让函数(名)和后面的括号之间加个空格
+//   "eslint.validate": [
+//     //开启对.vue文件中错误的检查
+//     "javascript",
+//     "javascriptreact",
+//     "typescript",
+//     "typescriptreact",
+//     "tsx",
+//     "vue",
+//     "html",
+//     "react"
+//   ],
+//   "search.exclude": {
+//     "**/node_modules": true,
+//     "**/bower_components": true,
+//     "**/dist": true
+//   }
+// }

@@ -1,0 +1,42 @@
+@import '@/style/common.scss';
+
+.header{
+  background-color: #FFFFFF;
+  .btnGroup{
+    width: calc(100% - 400px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .saveBtn{
+      margin-left: 20px;
+    }
+  }
+}
+.antlayout {
+  height: 100%;
+  .antslider{
+    flex: 0 0 302px !important;
+    width: 302px !important;
+    max-width: 302px !important;
+    height: 100%;
+    border: 1px solid $border-color;
+    >div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content:flex-start;
+    }
+  }
+  .antTargetBox{
+    padding: 24px 96px;
+    height: 100%;
+    overflow: scroll;
+    flex: 1;
+  }
+  .formBox{
+    width: 500px;
+    height: 100%;
+    background-color: #FFFFFF;
+  }
+}
