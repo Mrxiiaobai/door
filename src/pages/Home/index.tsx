@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState, useRef } from 'react'
 import type { Dispatch } from 'react'
-import { Layout, Drawer, Button } from 'antd'
+import { Layout, Drawer, Button, message } from 'antd'
 import { ItemTypes } from '@/utils/ItemTypes'
 import { createForm, onFormValuesChange } from '@formily/core'
 import { FormProvider } from '@formily/react'
@@ -81,10 +81,12 @@ const HomePage = ({ dispatch, visible, currentCard }:homeProps) => {
   }
 
   const handlePreview = () => {
-    setPreview(true)
+    // setPreview(true)
+    message.info('敬请期待');
   }
 
   const handleSave = () => {
+    message.info('敬请期待');
     console.log(data, '<<<-------data---------')
   }
 
